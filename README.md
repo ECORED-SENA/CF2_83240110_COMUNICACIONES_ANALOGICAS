@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **Sistemas de comunicaciones analógicas**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_83240110_COMUNICACIONES_ANALOGICAS/](https://ecored-sena.github.io/CF2_83240110_COMUNICACIONES_ANALOGICAS/)
 
 #
 
