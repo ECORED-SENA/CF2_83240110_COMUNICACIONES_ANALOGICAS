@@ -100,32 +100,114 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Sistemas de comunicaciones analógicas',
+      referencia:
+        'iLattec. (2021). Entienda las diferencias enter comunicaciones analógicas y digitales. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=7RqdVOeZy1M',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Amplificadores de radiofrecuencia',
+      referencia:
+        'INSTITUTO IDETEU. (2022).COMO FUNCIONA UN AMPLIFICADOR DE RADIOFRECUENCIA. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bLddb23kXbw',
+    },
+    {
+      tema: 'Moduladores',
+      referencia: 'Tecnológico Nacional de México. (s. f.). Modulación.',
+      tipo: 'Documento',
+      link:
+        'http://dsc.itpn.mx/recursosisc/5semestre/fundamentosdetelecomunicaciones/Unidad%20III.pdf',
+    },
+    {
+      tema: 'Moduladores',
+      referencia:
+        'RF elements s.r.o. (2022). Inside Wireless en Español: Modulación QAM II - El modulador. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=-WAWX046p0o',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Atenuación',
+      significado:
+        'disminución de la intensidad de la señal a lo largo del canal de transmisión, que puede afectar la calidad del mensaje recibido.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Canal',
+      significado:
+        'medio de transmisión por el cual se propaga la señal, que puede ser físico (cable coaxial) o inalámbrico (ondas de radio).',
+    },
+    {
+      termino: 'Frecuencia modulada (FM)',
+      significado:
+        'técnica de modulación en la que la frecuencia de la señal portadora varía en función de la señal de información.',
+    },
+    {
+      termino: 'Fuente de información',
+      significado:
+        'componente que genera y transforma el mensaje inicial en un sistema de comunicación.',
+    },
+    {
+      termino: 'Interferencia',
+      significado:
+        'efecto de señales no deseadas que afectan la transmisión, introduciendo ruido y distorsión en la señal principal.',
+    },
+    {
+      termino: 'Modulación',
+      significado:
+        'proceso que adapta la señal de información a la frecuencia de la señal portadora, permitiendo su transmisión eficiente.',
+    },
+    {
+      termino: 'Receptor',
+      significado:
+        'dispositivo que capta y procesa la señal recibida, filtrándola y demodulándola para extraer el mensaje.',
+    },
+    {
+      termino: 'Sensibilidad',
+      significado:
+        'nivel mínimo de señal de radiofrecuencia (rf) que un receptor puede detectar y procesar con claridad.',
+    },
+    {
+      termino: 'Transductor',
+      significado:
+        'dispositivo que convierte una señal de un tipo de energía a otro, como de una señal acústica a una señal eléctrica.',
+    },
+    {
+      termino: 'Transmisor',
+      significado:
+        'equipo que adapta y envía la señal eléctrica al canal de transmisión mediante modulación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Couch, L. W. (2008). <i>Sistemas de comunicación digitales y analógicos</i> (7.ª ed.). Prentice Hall México. ',
       link: '',
+    },
+    {
+      referencia:
+        'Tecnológico Nacional de México. (s. f.). <i>Modulación</i>. ',
+      link:
+        'http://dsc.itpn.mx/recursosisc/5semestre/fundamentosdetelecomunicaciones/Unidad%20III.pdf',
+    },
+    {
+      referencia:
+        'Universidad Autónoma de Madrid. (2015). <i>Comunicaciones analógicas</i>. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Tecnológica Nacional. (2008). <i>Apunte de Electrónica Aplicada III</i>. ',
+      link:
+        'http://www.profesores.frc.utn.edu.ar/electronica/ElectronicaAplicadaIII/Aplicada/Cap0IntroduccionalasTelec.pdf',
+    },
+    {
+      referencia:
+        'Universidad Tecnológica Nacional. (s. f.). <i>Receptores de RF</i>. ',
+      link:
+        'http://www1.frm.utn.edu.ar/mwg-internal/de5fs23hu73ds/progress?id=xT28sgHfsHpivNEpKMDy3RHtVIrGAOolqbdcqDIgjRE',
     },
   ],
   creditos: [
@@ -148,8 +230,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Fabio Enrique Combariza',
+          cargo: 'Experto temático',
+          centro:
+            'Equipo de Adecuación Gráfica y Didáctica de Recursos Educativos - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -158,35 +246,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
