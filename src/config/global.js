@@ -206,8 +206,7 @@ export default {
     {
       referencia:
         'Universidad Tecnológica Nacional. (s. f.). <i>Receptores de RF</i>. ',
-      link:
-        'http://www1.frm.utn.edu.ar/mwg-internal/de5fs23hu73ds/progress?id=xT28sgHfsHpivNEpKMDy3RHtVIrGAOolqbdcqDIgjRE',
+      link: '',
     },
   ],
   creditos: [
@@ -265,11 +264,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        //{
-        //  nombre: 'Luis Gabriel Urueta Alvarez',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         //{
         //  nombre: 'Jaime Hernán Tejada Llano',
         //  cargo: 'Validador y vinculador de recursos educativos digitales',

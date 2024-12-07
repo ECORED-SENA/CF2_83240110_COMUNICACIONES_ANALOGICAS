@@ -48,7 +48,7 @@
                       img(src='@/assets/curso/tema3/img2.svg', alt='', style="width: 400px").m-auto
                   .col-lg-8
                     .p-4
-                      p.mb-0 Para la radiodifusión FM, se utiliza la modalidad de Amplia-FM o W-FM (wide-FM en inglés). En la radio de dos vías, se utiliza la banda estrecha o N-FM (Narrow-FM en inglés) para optimizar el uso del ancho de banda.
+                      p.mb-0 Para la radiodifusión FM, se utiliza la modalidad de Amplia-FM o W-FM (#[i wide-FM] en inglés). En la radio de dos vías, se utiliza la banda estrecha o N-FM (#[i Narrow-FM] en inglés) para optimizar el uso del ancho de banda.
           p.mb-4(data-aos="fade-right") En la figura 4 se presenta que la onda modulada en FM mantiene constante su amplitud y solo varía su frecuencia.
           .row.justify-content-center.mb-5
             .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")

@@ -12,7 +12,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1.] Sistema de comunicaciones
         figure
-          img(src='@/assets/curso/tema1/img1.svg', alt='', style="width: 800px").m-auto
+          img(src='@/assets/curso/tema1/img1.svg', alt='Diagrama de transmisión de señal que muestra la fuente, el transmisor, el canal, el receptor, y el destino, con un bloque adicional para el ruido que interfiere en el proceso.', style="width: 800px").m-auto
     .row.bg-c2.mb-5
       .col-12
         .px-5
@@ -50,7 +50,7 @@
           .row.justify-content-center.mb-4
             .col-lg-8(data-aos="fade-down")
               .titulo-sexto.color-acento-contenido
-                p.mb-0 #[b Figura 2.] Representación sistema comunicaciones
+                p.mb-0 #[b Figura 2.] Representación de un sistema de comunicación
               figure
                 img(src='@/assets/curso/tema1/img5.svg', alt='Esquema de un sistema de transmisión detallado, que incluye bloques como fuente de información, transductor de entrada y salida, transmisor, medio, receptor, y destinatario. Muestra también cómo el ruido afecta la señal transmitida.', style="width: 800px").m-auto
           p.mb-4(data-aos="fade-right") El transmisor, el canal de transmisión y el receptor son los componentes esenciales de un sistema de comunicaciones analógicas. Sin embargo, existen otros elementos que optimizan la transmisión de la señal, tales como:
@@ -123,23 +123,25 @@
           p.mb-4(data-aos="fade-right") La información o los mensajes pueden clasificarse según su modo de transmisión y la forma en que el transmisor y el receptor se comunican entre sí dentro de un sistema de comunicaciones. Estos modos se dividen en:
           .row.justify-content-center.mb-5
             .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-              figure.mx-0
-                img(src='@/assets/curso/tema1/img6.png', alt='', style='width: 550px').m-auto
-              .row
-                .col-12
-                  .p-4.bg-c7
-                    p.text-center #[b Modo de transmisión simplex]
-                    p.text-center.mb-0 El mensaje se transmite en una sola dirección.
-                    p.text-center.mb-0 #[b Ejemplo:] emisoras de radio modulada.
+              .bg-c14.shadow
+                figure.mx-0
+                  img(src='@/assets/curso/tema1/img6.png', alt='', style='width: 550px').m-auto
+                .row
+                  .col-12
+                    .p-4.bg-c7
+                      p.text-center #[b Modo de transmisión #[i simplex]]
+                      p.text-center.mb-0 El mensaje se transmite en una sola dirección.
+                      p.text-center.mb-0 #[b Ejemplo:] emisoras de radio modulada.
             .col-10.col-md-8.col-lg-5(data-aos="fade-left")
-              figure.mx-0
-                img(src='@/assets/curso/tema1/img7.png', alt='', style='width: 550px').m-auto
-              .row
-                .col-12
-                  .p-4.bg-c7
-                    p.text-center #[b Modo de transmisión full dúplex]
-                    p.text-center.mb-0 El mensaje se transmite en ambas direcciones de forma simultánea.
-                    p.text-center.mb-0 #[b Ejemplo:] sistemas telefónicos.
+              .bg-c14.shadow
+                figure.mx-0
+                  img(src='@/assets/curso/tema1/img7.png', alt='', style='width: 550px').m-auto
+                .row
+                  .col-12
+                    .p-4.bg-c7
+                      p.text-center #[b Modo de transmisión #[i full dúplex]]
+                      p.text-center.mb-0 El mensaje se transmite en ambas direcciones de forma simultánea.
+                      p.text-center.mb-0 #[b Ejemplo:] sistemas telefónicos.
           .row.mb-4
             .col-auto.bg-c4(data-aos="fade-left")
               .row.align-items-center
