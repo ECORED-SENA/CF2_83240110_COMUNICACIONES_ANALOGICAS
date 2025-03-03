@@ -83,14 +83,14 @@
                     .col-12
                       .p-3.h-100
                         p.mb-0 La modulación en amplitud (AM) opera mediante la variación de la amplitud de la señal análoga transmitida originalmente.
-              p.mb-0 En la figura 5 se presenta que la onda modulada en AM varía en amplitud, mientras que la frecuencia permanece constante.
+              p.mb-0 En la PM, los cambios en la fase de la señal portadora dependen de la pendiente de la señal moduladora, lo que también afecta la frecuencia.
             .col-lg-4(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema3/img4.png', alt='', style="width: 400px").m-auto
           .row.justify-content-center(data-aos="fade-right")
             .col-lg-6
               .titulo-sexto.color-acento-contenido
-                p.mb-0 #[b Figura 5.] Onda de modulación AM
+                p.mb-0 #[b Figura 5.] Onda de modulación PM
               figure
                 img(src='@/assets/curso/tema3/img5.svg', alt='Diagrama comparativo que ilustra los conceptos de modulación de frecuencia (FM) y modulación de fase (PM). En la parte superior, una onda representa la modulación de frecuencia, donde un aumento en la amplitud de la señal corresponde a una mayor frecuencia. En la parte inferior, una onda muestra la modulación de fase, donde una mayor pendiente indica un aumento en la frecuencia. El eje vertical está etiquetado como voltaje (V) y el eje horizontal como tiempo (T).', style="width: 800px").m-auto
 

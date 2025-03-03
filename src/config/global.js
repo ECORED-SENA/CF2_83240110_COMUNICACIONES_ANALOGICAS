@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Sistemas de comunicaciones analógicas',
-    descripcionCurso:
+    Name: 'Sistemas de comunicaciones analógicas',
+    Description:
       'Este material componente formativo aborda los sistemas de comunicaciones analógicas, destacando sus componentes esenciales: transmisor, receptor, canal y transductores. Explica los modos de transmisión (<i>simplex</i> y <i>full duplex</i>) y los amplificadores de radiofrecuencia, que mejoran la señal. También describe los procesos de modulación en frecuencia, amplitud y fase, esenciales para la transmisión clara de información análoga.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -293,25 +293,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

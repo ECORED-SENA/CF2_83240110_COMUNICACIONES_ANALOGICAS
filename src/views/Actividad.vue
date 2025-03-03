@@ -9,14 +9,18 @@
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los estudiantes sobre los conceptos clave en sistemas de comunicaciones analógicas, incluyendo componentes esenciales, procesos de modulación, características de transmisión y recepción de señales.',
+        '<b> Objetivo:</b> evaluar la comprensión de los estudiantes sobre los conceptos clave en sistemas de comunicaciones analógicas, incluyendo componentes esenciales, procesos de modulación, características de transmisión y recepción de señales.',
       barajarPreguntas: true,
       preguntas: [
         {

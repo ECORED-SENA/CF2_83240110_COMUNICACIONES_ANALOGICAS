@@ -25,7 +25,7 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/intro/img2.png", alt="", style="width: 400px").m-auto
-    
+
 </template>
 
 <script>

@@ -193,23 +193,15 @@
                 .row(titulo="Destino y transductor de destino")
                   .col-12
                     p.mb-0 La señal eléctrica recibida se convierte nuevamente en la señal original, haciéndola compatible para su recepción en el destino final.
-      
+ 
 </template>
 
 <script>
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 
